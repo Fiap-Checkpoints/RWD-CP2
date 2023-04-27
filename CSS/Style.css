@@ -1,1 +1,13 @@
 @import url("./Rodape.css");
+@import url("./Conteudo.css");
+@import url("./Cabecalho.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+.container {
+  width: 100%;
+}
