@@ -1,6 +1,8 @@
-@import url("./Rodape.css");
-@import url("./Conteudo.css");
-@import url("./Cabecalho.css");
+@import url("./rodape.css");
+@import url("./conteudo.css");
+@import url("./cabecalho.css");
+@import url("./conteudo interno.css");
+@import url("./cabecalho interno.css");
 
 * {
   margin: 0;
