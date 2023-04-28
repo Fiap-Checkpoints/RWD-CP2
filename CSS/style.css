@@ -14,8 +14,8 @@
   width: 100%;
 }
 
-/* Breakpoint 1 - 800px*/
-@media screen and (max-width: 800px) {
+/* Breakpoint 1 - 970px*/
+@media screen and (max-width: 970px) {
   .cabecalho nav {
   width: 100%;
   height: auto;
@@ -34,14 +34,14 @@
   /* Breakpoint 2 - 600px*/
   @media screen and (max-width: 600px) {
    .cabecalho nav {
-    font-size: 1.5rem;
-     }
-     .cabecalho img {
-  width: 70%;
-   max-width: 70%;
-  }
-     .cabecalho a {
-   padding: 2vh 0;
-   }
+      font-size: 1.5rem;
+    }
+    .cabecalho img {
+      width: 70%;
+      max-width: 70%;
+    }
+    .cabecalho a {
+      padding: 2vh 0;
+    }
   }
   
