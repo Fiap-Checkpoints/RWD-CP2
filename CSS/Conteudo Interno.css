@@ -1,0 +1,36 @@
+.conteudo-interno {
+    background: rgba(27, 27, 27, 0.8);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 50%;
+    color: #fff;
+}
+
+.conteudo-interno p {
+    margin: 1% 2%;
+    padding: 1%;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    font-size: large;
+    text-align: justify;
+}
+
+.conteudo-interno img {
+    flex-wrap: wrap;
+    width: 30vw;
+    height: 22vh; 
+    display: block;
+    margin: 2% 0;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.conteudo-interno h2 {
+    flex-grow: 1;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 2rem;
+    color: white;
+  }
