@@ -13,7 +13,7 @@
 .conteudo-interno p {
     margin: 3% 2%;
     padding: 1%;
-    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 8px rgba(21, 21, 21, 0.5);
     overflow: hidden;
     font-size: large;
     text-align: justify;
