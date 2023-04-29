@@ -1,0 +1,543 @@
+Diogo Gallin - 
+João Dubas - 
+Pedro Couto - 
+Pedro Lourenço - 
+Rafael Kanfler - 
+
+CÓDIGOS DAS PAGINAS HTML
+
+INDEX:
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <title>Página Principal</title>
+</head>
+
+<body>
+  <div class="container">
+    <header class="cabecalho">
+      <img src="./img/logo.png" alt="Logo da FIAP" />
+      <nav>
+        <a href="./pages/games.html">Games</a>
+        <a href="./pages/mobile.html">Mobile</a>
+        <a href="./pages/tech.html">Tecnologia</a>
+      </nav>
+    </header>
+
+    <!--  section principal -->
+    <section class="conteudo">
+      <div class="card">
+        <h2>GAMES</h2>
+        <figure>
+          <img src="./img/games.jpg" alt="imagem games">
+          <figcaption>Dicas de jogos</figcaption>
+        </figure>
+      </div>
+
+      <div class="card">
+        <h2>MOBILE</h2>
+        <figure>
+          <img src="./img/mobile.jpg" alt="imagem mobile">
+          <figcaption>Nossos queridos smartphones</figcaption>
+        </figure>
+      </div>
+
+      <div class="card">
+        <h2>TECNOLOGIA</h2>
+        <figure>
+          <img src="./img/tech-1.png" alt="imagem tecnologia">
+          <figcaption>Assuntos do momento</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!--  Rodapé -->
+    <footer class="rodape">
+      <h2>Redes Sociais</h2>
+      <nav>
+        <a href="https://github.com/"><img src="./img/social-1-24x.png" alt="Logo Github" /></a>
+        <a href="https://pt-br.facebook.com/"><img src="./img/social-2-24x.png" alt="Logo facebook" /></a>
+        <a href="https://twitter.com/"><img src="./img/social-3-24x.png" alt="Logo twitter" /></a>
+      </nav>
+    </footer>
+  </div>
+</body>
+
+</html>
+
+
+---------------------------------------------------------------------------------------------------------------------
+
+GAMES:
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../css/style.css" />
+  <title>Página Games</title>
+</head>
+
+<body>
+  <div class="container">
+
+    <!--  cabeçalho -->
+    <header class="cabecalho">
+      <img src="../img/games-1.png" alt="imagem de games" />
+      <!--  menu -->
+      <nav>
+        <a href="../index.html">Principal</a>
+        <a href="./mobile.html">Mobile</a>
+        <a href="./tech.html">Tecnologia</a>
+      </nav>
+    </header>
+
+    <!--  section conteúdo -->
+    <section class="conteudo-interno">
+        <h2>GAMES</h2>
+        <p>
+          Os jogos eletrônicos, ou simplesmente games, têm se tornado cada vez mais populares nos últimos anos, tanto entre jovens quanto entre adultos. Essa forma de entretenimento oferece uma experiência única e imersiva, permitindo que os jogadores sejam transportados para mundos virtuais cheios de desafios e aventuras.
+        </br>
+          Os games têm evoluído muito desde seus primórdios, quando eram jogados em consoles de jogos simples e com gráficos rudimentares. Hoje em dia, os jogos possuem gráficos realistas, jogabilidade sofisticada e narrativas envolventes. Além disso, muitos jogos permitem que os jogadores joguem com outras pessoas em todo o mundo, tornando a experiência ainda mais social e interativa.
+        </br>  
+          Uma das principais razões pelas quais os jogos são tão populares é porque eles oferecem uma forma de escapismo. Os jogadores podem se desligar do mundo real por algumas horas e mergulhar em um mundo totalmente diferente, onde eles podem ser heróis, vilões, exploradores ou qualquer outra coisa que desejarem. Isso pode ser especialmente atraente para pessoas que enfrentam desafios ou estresse na vida real.
+        </br>  
+          No entanto, os jogos também podem ter desvantagens. Alguns jogadores podem se tornar excessivamente envolvidos em um jogo e acabar negligenciando outras áreas de suas vidas, como relacionamentos, trabalho e estudos. Além disso, alguns jogos podem ser violentos ou sexualmente explícitos, o que pode ser inapropriado para crianças ou jovens.
+        </br>  
+          Apesar dessas desvantagens, os jogos continuam sendo uma forma popular de entretenimento em todo o mundo. À medida que a tecnologia continua a avançar, é provável que os jogos se tornem ainda mais sofisticados e imersivos, oferecendo aos jogadores experiências cada vez mais incríveis    
+        </p>
+        <figure>
+          <img src="../img/games-2.png" alt="imagem games">
+          <figcaption>Dicas de jogos</figcaption>
+        </figure>
+    </section>
+
+    <!--  Rodapé -->
+    <footer class="rodape">
+      <h2>Redes Sociais</h2>
+      <nav>
+        <a href="https://github.com/"><img src="../img/social-1-24x.png" alt="Logo Github" /></a>
+        <a href="https://pt-br.facebook.com/"><img src="../img/social-2-24x.png" alt="Logo facebook" /></a>
+        <a href="https://twitter.com/"><img src="../img/social-3-24x.png" alt="Logo twitter" /></a>
+      </nav>
+    </footer>
+  </div>
+</body>
+
+</html>
+
+---------------------------------------------------------------------------------------------------------------------
+
+MOBILE: 
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../css/style.css" />
+  <title>Página Mobile</title>
+</head>
+
+<body>
+  <div class="container">
+
+    <!--  cabeçalho -->
+    <header class="cabecalho">
+      <img src="../img/mobile-1.png" alt="imagem de mobile" />
+      <!--  menu -->
+      <nav>
+        <a href="../index.html">Principal</a>
+        <a href="./tech.html">Tecnologia</a>
+        <a href="./games.html">Games</a>
+      </nav>
+    </header>
+
+    <!--  section conteúdo -->
+    <section class="conteudo-interno">
+        <h2>MOBILE</h2>
+        <p>
+          Mobile é um termo que se refere a dispositivos eletrônicos portáteis, como smartphones e tablets, que permitem que os usuários realizem uma ampla variedade de tarefas enquanto estão em trânsito ou longe de seus computadores de mesa ou laptops. Com o aumento da popularidade dos dispositivos móveis nos últimos anos, o termo "mobile" se tornou sinônimo de conveniência e conectividade instantânea.
+        </br>
+          Os dispositivos móveis modernos são muito mais do que simples telefones celulares. Eles são computadores portáteis que permitem que os usuários naveguem na web, verifiquem e-mails, façam compras online, joguem jogos, assistam a vídeos, tirem fotos, ouçam música e muito mais. Eles também são equipados com uma série de recursos que facilitam a vida dos usuários, como GPS, aplicativos de mensagens instantâneas, assistentes de voz e muito mais.
+        </br>
+          Uma das principais vantagens dos dispositivos móveis é que eles permitem que os usuários acessem a Internet de qualquer lugar e a qualquer momento. Isso significa que os usuários podem verificar seus e-mails, atualizar suas redes sociais, pesquisar informações e fazer compras enquanto estão em movimento. Além disso, os dispositivos móveis oferecem uma ampla variedade de aplicativos que permitem que os usuários personalizem sua experiência e realizem tarefas específicas.
+        </br>
+          Os desenvolvedores de aplicativos e websites precisam estar cientes das limitações dos dispositivos móveis, como a tela pequena e a capacidade limitada de processamento. Para garantir que os usuários possam acessar o conteúdo com facilidade e rapidez, os desenvolvedores precisam otimizar seus sites e aplicativos para dispositivos móveis. Eles também precisam garantir que seus aplicativos sejam compatíveis com diferentes plataformas, como iOS e Android.
+        </br>
+          Em resumo, os dispositivos móveis transformaram a maneira como as pessoas se comunicam, se conectam e realizam tarefas diárias. Eles oferecem uma ampla gama de recursos e aplicativos que ajudam os usuários a serem mais produtivos, eficientes e conectados, tornando-se uma parte essencial da vida moderna.
+        </p>
+        <figure>
+          <img src="../img/mobile-2.png" alt="imagem mobile">
+          <figcaption>Nossos queridos smartphones</figcaption>
+        </figure>
+    </section>
+
+    <!--  Rodapé -->
+    <footer class="rodape">
+      <h2>Redes Sociais</h2>
+      <nav>
+        <a href="https://github.com/"><img src="../img/social-1-24x.png" alt="Logo Github" /></a>
+        <a href="https://pt-br.facebook.com/"><img src="../img/social-2-24x.png" alt="Logo facebook" /></a>
+        <a href="https://twitter.com/"><img src="../img/social-3-24x.png" alt="Logo twitter" /></a>
+      </nav>
+    </footer>
+  </div>
+</body>
+
+</html>
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+TECH
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../css/style.css" />
+  <title>Página Tecnologia</title>
+</head>
+
+<body>
+  <div class="container">
+
+    <!--  cabeçalho da página tech -->
+    <header class="cabecalho">
+      <img src="../img/tech-1.png" alt="imagem de tecnologia" />
+      <!--  menu -->
+      <nav>
+        <a href="../index.html">Principal</a>
+        <a href="./mobile.html">Mobile</a>
+        <a href="./games.html">Games</a>
+      </nav>
+    </header>
+
+    <!--  section conteúdo -->
+    <section class="conteudo-interno">
+        <h2>TECNOLOGIA</h2>
+        <p>
+          Tecnologia é um termo que se refere ao conjunto de conhecimentos, técnicas e dispositivos utilizados para criar, desenvolver e aprimorar sistemas, máquinas e processos que tornam a vida mais fácil e eficiente. Desde a invenção da roda até as tecnologias mais avançadas de hoje, a humanidade tem se beneficiado do uso da tecnologia em quase todas as áreas da vida.
+        </br> 
+          A tecnologia tem impactado a forma como as pessoas se comunicam, trabalham, estudam, se divertem e até mesmo se relacionam. Ela permite que as pessoas se conectem instantaneamente em qualquer parte do mundo, realizem tarefas complexas em segundos e tenham acesso a uma enorme quantidade de informações em tempo real.
+        </br>
+          Alguns dos avanços tecnológicos mais notáveis incluem a Internet, a computação em nuvem, a inteligência artificial, a realidade virtual, a impressão 3D e muitos outros. Essas tecnologias transformaram a maneira como as empresas operam, como as pessoas trabalham, como os profissionais da saúde tratam pacientes e como as pessoas aprendem.
+        </br>
+          Embora a tecnologia tenha muitos benefícios, também apresenta alguns desafios e preocupações, como o vício em dispositivos eletrônicos, a privacidade e a segurança dos dados, a desigualdade digital e o impacto ambiental. Por isso, é importante que as empresas e indivíduos utilizem a tecnologia de maneira responsável e ética, visando sempre o bem-estar das pessoas e do planeta.
+        </br>
+          Em resumo, a tecnologia é um elemento fundamental da vida moderna que transformou a forma como as pessoas vivem, trabalham e se relacionam. Ela oferece uma ampla gama de benefícios, mas também apresenta desafios e preocupações. É importante que as pessoas utilizem a tecnologia de forma consciente e responsável para garantir um futuro melhor para todos. </p>
+        <figure>
+          <img src="../img/tech-2.png" alt="imagem tecnologia">
+          <figcaption>Assuntos do momento</figcaption>
+        </figure>
+    </section>
+
+    <!--  Rodapé -->
+    <footer class="rodape">
+      <h2>Redes Sociais</h2>
+      <nav>
+        <a href="https://github.com/"><img src="../img/social-1-24x.png" alt="Logo Github" /></a>
+        <a href="https://pt-br.facebook.com/"><img src="../img/social-2-24x.png" alt="Logo facebook" /></a>
+        <a href="https://twitter.com/"><img src="../img/social-3-24x.png" alt="Logo twitter" /></a>
+      </nav>
+    </footer>
+  </div>
+</body>
+
+</html>
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+CODIGOS DOS ARQUIVOS .CSS
+
+
+
+
+STYLE
+
+@import url("./rodape.css");
+@import url("./conteudo.css");
+@import url("./cabecalho.css");
+@import url("./conteudo-interno.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+.container {
+  width: 100%;
+}
+
+/* Breakpoint 1 - 1300px*/
+@media screen and (max-width: 1300px) {
+   .conteudo {
+    flex-direction: column;
+  } 
+
+  .rodape nav img {
+  display: block;
+  max-width: 100%;
+  width: 15%;
+  margin: 0 auto;
+  }
+
+  .card img{
+    max-width: 100%;
+    width: 50%;
+    height: auto;
+    display: inline-block;
+  } 
+  
+  .card figcaption {
+      font-size: 1.3rem;
+  }
+
+  }
+
+
+/* Breakpoint 2 - 990px*/
+@media screen and (max-width: 990px) {
+  .cabecalho nav {
+  width: 100%;
+  height: auto;
+  font-size: 2rem;
+   }
+   .cabecalho img {
+   width: 50%;
+   max-width: 50%;
+  margin: 0 auto;
+   }
+   .cabecalho a {
+   padding: 3vh 0;
+   }
+   .rodape nav img {
+    display: block;
+    max-width: 100%;
+    width: 20%;
+    margin: 0 auto;
+
+  }
+  }
+
+  
+  /* Breakpoint 3 - 600px*/
+  @media screen and (max-width: 600px) {
+   .cabecalho nav {
+      font-size: 1.5rem;
+      justify-content: center;
+      flex-direction: column;
+    }
+    .cabecalho img {
+      width: 70%;
+      max-width: 70%;
+    }
+
+    .cabecalho a{
+      font-size: 2rem;
+      padding: 13px;
+    }
+
+    
+
+  }
+  
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+CABECALHO 
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #000000;
+}
+
+.cabecalho nav {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 60vw;
+  height: 32vh; 
+  text-align: center;
+}
+
+.cabecalho a {
+  text-decoration: none;
+  font-size: 2.5rem;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 700;
+  color: #fff;
+  padding: 7vh 0;
+}
+
+.cabecalho img {
+  width: 30%;
+  max-width: 100%;
+  display: block;
+}
+
+.cabecalho a:hover {
+  background-color: #fff;
+  color: #000000;
+}
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+
+CONTEUDO 
+
+.conteudo {
+    background: #000;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+
+}
+
+.conteudo div {
+    margin: 4% 2% 0 2%;
+    box-shadow: 5px 4px #3f3f3f;
+    overflow: hidden;
+    align-items: center;
+    text-align: center;
+    }
+
+.conteudo div h2{
+  font-size: 1.5rem;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #fff;
+  padding: 3vh;
+}
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.card img {
+    max-width: 100%;
+    width: 30vw;
+    height: 35vh;
+    display: block;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    object-fit: cover;
+  } 
+
+.card figcaption {
+    font-size: 0.7rem;
+    font-style: italic;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+        Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+
+CONTEUDO-INTERNO 
+
+.conteudo-interno {
+    background: rgba(27, 27, 27, 0.8);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 50%;
+    color: #fff;
+}
+
+.conteudo-interno p {
+    margin: 3% 2%;
+    padding: 1%;
+    box-shadow: 2px 2px 8px rgba(21, 21, 21, 0.5);
+    overflow: hidden;
+    font-size: large;
+    text-align: justify;
+}
+
+.conteudo-interno img {
+    flex-wrap: wrap;
+    max-width: 100%;
+    width: 30vw;
+    height: auto; 
+    display: block;
+    margin: 2% 0;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.conteudo-interno h2 {
+    flex-grow: 1;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 2rem;
+    color: white;
+  }
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+RODAPE 
+
+.rodape {
+  display: flex;
+  justify-content: space-around;
+  padding: 3vh  ;
+  background-color: #c9c9c9;
+}
+
+.rodape h2 {
+  flex-grow: 1;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: #c9c9c9;
+  font-size: 1rem;
+}
+
+.rodape nav {
+  flex-grow: 6;
+  display: flex;
+  width: 60vw;
+  height: 10vh;
+  align-items: center;
+  background-color: #c9c9c9;
+  
+  }
+  
+.rodape nav img {
+    display: block;
+    width: 9%;
+    max-width: 100%;
+    margin: 0 auto;
+
+  }
+
+.rodape nav a{
+  display: block;
+    flex-grow: 1;
+    background-color: #c9c9c9;
+  }
+
